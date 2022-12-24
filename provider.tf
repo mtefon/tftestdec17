@@ -10,8 +10,8 @@ terraform {
 backend "remote" {
   organization = "mtefon_inc"
   workspaces {
-    name = "tftest_repo"
-  }
+    name = "tftestdec17"
+  } 
 }
 
 provider "azurerm" {
